@@ -4,3 +4,6 @@ multi-agent-oss/*
 00*
 assets/*
 .DS_Store
+__pycache__/*
+.env
+.vscode
