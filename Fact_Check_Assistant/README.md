@@ -14,20 +14,25 @@ In this workshop you will learn how to build an Agentic AI powered fact-checking
 
 ### Environment Variables
 
-- You must create a `.env` file in the `src/backend` directory.
+Create a `.env` file in the `src/frontend` directory with the following variables:
 
-- **Required variables:**
-  - `LANGFUSE_PUBLIC_KEY` — Your Langfuse public key (for observability/tracing)
-  - `LANGFUSE_SECRET_KEY` — Your Langfuse secret key (for observability/tracing)
-  - `LANGFUSE_HOST` — Langfuse host URL (e.g., https://us.cloud.langfuse.com)
+```
 
-**Langfuse variables are required for observability and tracing of agent workflows.**
+LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
+LANGFUSE_SECRET_KEY=your_langfuse_secret_key
+LANGFUSE_HOST=https://cloud.langfuse.com
 
-**To get your Langfuse keys:**
+```
 
-1. Go to [Langfuse](https://cloud.langfuse.com/) and create a new project (sign up if needed).
-2. In your project settings, generate a new public and secret key pair.
-3. Add these keys to your `.env` file as shown above.
+> Note: Langfuse is used for observability. You can sign up for a free account at [langfuse.com](https://langfuse.com).
+
+### Install Dependencies
+
+Run the following command to install the required dependencies:
+
+```bash
+pip install -r src/frontend/requirements.txt
+```
 
 ### Directory Structure
 
