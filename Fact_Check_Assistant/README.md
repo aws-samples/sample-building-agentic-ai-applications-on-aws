@@ -12,29 +12,7 @@ In this workshop you will learn how to build an Agentic AI powered fact-checking
 4. Build a supervisor agent that orchestrates multiple specialized sub-agents for comprehensive content analysis
 5. Implement systematic misinformation detection workflows with evidence-based assessments
 
-### Environment Variables
-
-Create a `.env` file in the `src/frontend` directory with the following variables:
-
-```
-
-LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
-LANGFUSE_SECRET_KEY=your_langfuse_secret_key
-LANGFUSE_HOST=https://cloud.langfuse.com
-
-```
-
-> Note: Langfuse is used for observability. You can sign up for a free account at [langfuse.com](https://langfuse.com).
-
-### Install Dependencies
-
-Run the following command to install the required dependencies:
-
-```bash
-pip install -r src/frontend/requirements.txt
-```
-
-### Directory Structure
+The following directory structure outlines the key components of the fact-check assistant project:
 
 - `/Fact_Check_Assistant/` - Contains all workshop materials
 
@@ -42,6 +20,9 @@ pip install -r src/frontend/requirements.txt
   - `/src/` - Source code for the fact-check assistant application
     - `frontend` - Streamlit app running fact-check assistant application
     - `infra` - CDK infrastructure for the fact-check assistant application
+
+> [!NOTE]
+> This document provides an overview. For hands-on instructions to build and run the multi-agent fact-checking system, refer to the [notebook guide](./1_strands-agents-multi-agent/README.md).
 
 ## Sample prompts:
 
