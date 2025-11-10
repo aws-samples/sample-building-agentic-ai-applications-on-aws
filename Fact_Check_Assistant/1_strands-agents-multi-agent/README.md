@@ -52,7 +52,7 @@ LANGFUSE_HOST=https://cloud.langfuse.com
 Run the following command to install the required dependencies:
 
 ```bash
-pip install -r src/requirements.txt
+pip install -r src/frontend/requirements.txt
 ```
 
 ### 3. Build the Agent System
