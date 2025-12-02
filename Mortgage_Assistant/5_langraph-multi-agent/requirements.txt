@@ -8,7 +8,7 @@ langchain-community==0.3.26
 langgraph-swarm==0.0.11
 certifi==2025.7.14
 langchain-mcp-adapters
-mcp==1.12.0
+mcp==1.23.0
 langfuse==3.2.1
 numpy<2,>=1.26.0
 pandas==2.1.3
